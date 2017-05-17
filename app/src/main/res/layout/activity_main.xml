@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mainLayout"
+    tools:context="com.raminder.ulcws_trainclient.MainActivity">
+
+    <TextView
+        android:text="Warning System for Unmanned Level Crossing \n(Train Client)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:id="@+id/tv1"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="10dp"/>
+
+    <ProgressBar
+        android:id="@+id/pb1"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
